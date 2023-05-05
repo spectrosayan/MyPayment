@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>May Payment</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Main CSS-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Font-icon css-->
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="app sidebar-mini rtl" style="font-family: Helvetica, Arial, sans-serif;">
+  <!-- Navbar-->
+  <header style="background-color: #212535;" class="app-header"><a style="background-color: #212535;"
+      class="app-header__logo" href="home.html">
+
+      <span style="text-shadow: -4px 3px #888888;font-family: -webkit-body;">MyPayment</span>
+
+    </a>
+    <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
+      aria-label="Hide Sidebar"></a>
+    <!-- Navbar Right Menu-->
+    <ul class="app-nav">
+      <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i
+            class="fa fa-user fa-lg"></i></a>
+        <ul class="dropdown-menu settings-menu dropdown-menu-right">
+          <li><a class="dropdown-item" href="preferencias.html"><i class="fa fa-cog fa-lg"></i> Preferências</a></li>
+          <li><a class="dropdown-item" href="index.html"><i class="fa fa-sign-out fa-lg"></i> Sair</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+  <!-- Sidebar menu-->
+  <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+  <aside class="app-sidebar" style="background-color: #212535;">
+    <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="image/marcos.jpg" alt="User Image">
+      <div>
+        <p class="app-sidebar__user-name">Marcos Lima</p>
+        <p class="app-sidebar__user-designation">Scrum Master</p>
+      </div>
+    </div>
+    <ul class="app-menu">
+      <li><a class="app-menu__item" href="home.html"><i class="app-menu__icon fa fa-home" aria-hidden="true"></i><span
+            class="app-menu__label">Inicio</span></a></li>
+      <li><a class="app-menu__item" href="pagamentos.html"><i class="app-menu__icon fa fa-usd"
+            aria-hidden="true"></i><span class="app-menu__label">Pagamentos</span></a></li>
+      <li><a class="app-menu__item" href="pontos.html"><i class="app-menu__icon fa fa-clock-o"
+            aria-hidden="true"></i><span class="app-menu__label">Pontos</span></a></li>
+      <!-- <li><a class="app-menu__item" href="convenios.html"><i class="app-menu__icon fa fa-list-alt"
+            aria-hidden="true"></i><span class="app-menu__label">Convênios</span></a></li> -->
+
+    </ul>
+  </aside>
+  <main class="app-content">
+    <div class="app-title" style="justify-content: center;">
+      <div>
+        <h1 style="font-size: 30px;font-weight: bold;">Bem-vindo ao MyPayment!</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="tile">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="tile">
+                <h3 class="tile-title">Pagamentos</h3>
+                <div style="width: 100%;border: 1px solid #212535;margin-top: -18px;">
+                </div>
+                <br>
+                <div class="div-home">
+                  <div class="div-container">
+                    <a href="pagamentos.html">
+                      <h3>
+                        <div class="div-fil">
+                          <span><i class="fa fa-money" aria-hidden="true"></i></span>
+                          <p class="mensal">MENSAL</p>
+                          <P class="mes">MES</P>
+                        </div>
+                      </h3>
+                    </a>
+                  </div>
+                  <div style="width: 50%;">
+                    <div>
+                      <h1
+                        style="color: #212535;line-height: 1.5;font-size: 13px;font-weight:500;text-transform: uppercase;">
+                        Vencimentos
+                      </h1>
+                    </div>
+                    <div>
+                      <h1
+                        style="color: #212535;font-size: 30px;font-weight:500;text-transform: uppercase;margin-top: -10px;">
+                        R$ 1.00.52
+                      </h1>
+                    </div>
+                    <div>
+                      <h1
+                        style="color: #212535;line-height: 1.5;font-size: 13px;font-weight:500;text-transform: uppercase;">
+                        DESCONTOS
+                      </h1>
+                    </div>
+                    <div>
+                      <h1
+                        style="color: #f12400;font-size: 30px;font-weight:500;text-transform: uppercase;margin-top: -10px;">
+                        -R$ 325,90
+                      </h1>
+                    </div>
+                    <div style="border: 1px solid #212535; width: 100%;">
+                    </div>
+                    <div>
+                      <h1
+                        style="color: #212535;line-height: 1.5;font-size: 13px;font-weight:500;text-transform: uppercase;">
+                        total
+                      </h1>
+                    </div>
+                    <div>
+                      <h1
+                        style="color: #1a871a;font-size: 30px;font-weight:500;text-transform: uppercase;margin-top: -10px;">
+                        R$ 100,91
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                <div style="padding-top: 1em;" class="col-12">
+                  <a style="text-decoration: none;" href="pagamentos.html">
+                    <button class="btn-pagamentos form-control">Ver todos os pagamentos</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="tile">
+                <h3 class="tile-title">Ponto</h3>
+                <div style="width: 100%;border: 1px solid #212535;margin-top: -18px;">
+                </div>
+                <div class="table-responsive" style="padding-top: 15px;">
+                  <table class="table">
+                    <thead>
+                      <tr style="background-color: #7c7c7c;color: #e5e5e5;">
+                        <th scope="col">DATA</th>
+                        <th scope="col">MARCAÇÃO</th>
+                        <th scope="col">RESULTADO</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">27/01 QUI</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:30 | 17:22
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">26/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:30 |
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #f12400;"><i class="fa fa-times" aria-hidden="true"></i>
+                            Inconsistente</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">24/01 TER</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-12">
+                  <a style="text-decoration: none;" href="pontos.html">
+                    <button class="btn-pagamentos form-control">Ver o ponto completo</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer style="text-align: center;">
+    <div>
+      <h1><img src="image/icone.png" class="logo_img" alt="">MyPayment</h1>
+      <p>COPYRIGHT © 2023-2023, My Payment, LLC. ALL RIGHTS RESERVED</p>
+    </div>
+  </footer>
+  <!-- Essential javascripts for application to work-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- The javascript plugin to display page loading on top-->
+  <script src="js/plugins/pace.min.js"></script>
+  <!-- Page specific javascripts-->
+  <!-- Google analytics script-->
+  <script type="text/javascript">
+    if (document.location.hostname == 'pratikborsadiya.in') {
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-72504830-1', 'auto');
+      ga('send', 'pageview');
+    }
+  </script>
+</body>
+
+</html>

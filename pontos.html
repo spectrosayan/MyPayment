@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>May Payment</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Main CSS-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Font-icon css-->
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="app sidebar-mini rtl" style="font-family: Helvetica, Arial, sans-serif;">
+  <!-- Navbar-->
+  <header style="background-color: #212535;" class="app-header"><a style="background-color: #212535;"
+      class="app-header__logo" href="home.html">
+
+      <span style="text-shadow: -4px 3px #888888;font-family: -webkit-body;">MyPayment</span>
+
+    </a>
+    <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
+      aria-label="Hide Sidebar"></a>
+    <!-- Navbar Right Menu-->
+    <ul class="app-nav">
+      <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i
+            class="fa fa-user fa-lg"></i></a>
+        <ul class="dropdown-menu settings-menu dropdown-menu-right">
+          <li><a class="dropdown-item" href="preferencias.html"><i class="fa fa-cog fa-lg"></i> Preferências</a></li>
+          <li><a class="dropdown-item" href="index.html"><i class="fa fa-sign-out fa-lg"></i> Sair</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+  <!-- Sidebar menu-->
+  <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+  <aside class="app-sidebar" style="background-color: #212535;">
+    <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="image/marcos.jpg" alt="User Image">
+      <div>
+        <p class="app-sidebar__user-name">Marcos Lima</p>
+        <p class="app-sidebar__user-designation">Scrum Master</p>
+      </div>
+    </div>
+    <ul class="app-menu">
+      <li><a class="app-menu__item" href="home.html"><i class="app-menu__icon fa fa-home" aria-hidden="true"></i><span
+            class="app-menu__label">Inicio</span></a></li>
+      <li><a class="app-menu__item" href="pagamentos.html"><i class="app-menu__icon fa fa-usd"
+            aria-hidden="true"></i><span class="app-menu__label">Pagamentos</span></a></li>
+      <li><a class="app-menu__item" href="pontos.html"><i class="app-menu__icon fa fa-clock-o"
+            aria-hidden="true"></i><span class="app-menu__label">Pontos</span></a></li>
+      <!-- <li><a class="app-menu__item" href="convenios.html"><i class="app-menu__icon fa fa-list-alt"
+            aria-hidden="true"></i><span class="app-menu__label">Convênios</span></a></li> -->
+
+    </ul>
+  </aside>
+  <main class="app-content">
+    <div class="app-title" style="justify-content: center;">
+      <div>
+        <h1 style="font-size: 30px;font-weight: bold;">Ponto</h1>
+      </div>
+    </div>
+    <div class="row" style="padding-bottom: 2em;">
+      <div class="col-md-12">
+        <div class="tile">
+          <div style="text-align: center;">
+            <h4 style="font-size: 20px;">Período</h4>
+            <h4> <button class="btn-next">
+                <i class="fa fa-angle-left" aria-hidden="true"></i></button> 01/01/2023 á 31/01/2023 <button
+                class="btn-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></h4>
+            <h4>Janeiro 2023</h4>
+          </div>
+        </div>
+        <div style="text-align: center;font-size: 20px;padding-bottom: 1em;">
+          <span>Ùltima Atualização: 31/01/2023 08:00</span>
+        </div>
+        <div class="tile">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="tile">
+                <div class="col-md-12">
+                  <h3 class="tile-title">Ponto</h3>
+                  <div style="width: 100%;border: 1px solid #212535;margin-top: -18px;">
+                  </div><br>
+                  <table class="table">
+                    <thead>
+                      <tr style="background-color: #7c7c7c;color: #e5e5e5;">
+                        <th scope="col">DATA</th>
+                        <th scope="col">MARCAÇÃO</th>
+                        <th scope="col">RESULTADO</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                      <tr class="table_ponto">
+                        <td scope="row"><span style="font-size: 18px;">03/01 QUA</span>
+                        </td>
+                        <td>
+                          <span style="font-size: 18px;">
+                            06:26 | 17:18
+                          </span>
+                        </td>
+                        <td><span style="font-size: 18px;color: #1a871a;"><i class="fa fa-check" aria-hidden="true"></i>
+                            Correto</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="tile">
+                <h3 class="tile-title">Total de Horas</h3>
+                <div style="width: 100%;border: 1px solid #212535;margin-top: -18px;">
+                </div><br>
+                <div style="display: flex;">
+                  <div class="col-md-6">
+                    <div class="tile" style="text-align: center;">
+                      <h5>Positivas</h5><br>
+                      <div style="width: 100%;border: 1px solid #212535;margin-top: -25px;">
+                      </div>
+                      <div style="padding-top: 5px; display: flex;justify-content: space-evenly;">
+                        <h3 class="h3-pos">+</h3>
+                        <h3 style="color: silver;"> 07:00 Hrs</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="tile" style="text-align: center;">
+                      <h5>Negativas</h5><br>
+                      <div style="width: 100%;border: 1px solid #212535;margin-top: -25px;">
+                      </div>
+                      <div style="padding-top: 5px; display: flex;justify-content: space-evenly;">
+                        <h3 class="h3-pos" style="background-color: #f12400;">-</h3>
+                        <h3 style="color: silver;"> 07:00 Hrs</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tile">
+                <h3 class="tile-title">Calendário</h3>
+                <div style="width: 100%;border: 1px solid #212535;margin-top: -18px;">
+                </div><br>
+                <div id="calendario"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer style="text-align: center;">
+    <div>
+      <h1><img src="image/icone.png" class="logo_img" alt="">May Payment</h1>
+      <p>COPYRIGHT © 2023-2023, My Payment, LLC. ALL RIGHTS RESERVED</p>
+    </div>
+  </footer>
+  <!-- Essential javascripts for application to work-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- The javascript plugin to display page loading on top-->
+  <script src="js/plugins/pace.min.js"></script>
+  <!-- Page specific javascripts-->
+  <!-- Google analytics script-->
+  <script type="text/javascript">
+    if (document.location.hostname == 'pratikborsadiya.in') {
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-72504830-1', 'auto');
+      ga('send', 'pageview');
+    }
+
+    const divCalendario = document.querySelector('#calendario');
+    const dataAtual = new Date();
+    const mesAtual = dataAtual.getMonth();
+    const anoAtual = dataAtual.getFullYear();
+
+    // array com os nomes dos meses
+    const nomesMeses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
+
+    // cria a tabela do calendário
+    let tabelaCalendario = '<table style="text-align:center;width:100%">';
+    tabelaCalendario += '<caption>' + nomesMeses[mesAtual] + ' ' + anoAtual + '</caption>';
+    tabelaCalendario += '<thead>';
+    tabelaCalendario += '<tr><th colspan="7" style="background-color:silver">' + nomesMeses[mesAtual] + ' ' + anoAtual + '</th></tr>';
+    tabelaCalendario += '<tr><th>Dom</th><th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th></tr>';
+    tabelaCalendario += '</thead>';
+    tabelaCalendario += '<tbody>';
+
+    // cria uma instância da data do primeiro dia do mês
+    const dataPrimeiroDia = new Date(anoAtual, mesAtual, 1);
+    // determina o dia da semana do primeiro dia do mês
+    const diaSemanaPrimeiroDia = dataPrimeiroDia.getDay();
+    // determina o último dia do mês
+    const ultimoDia = new Date(anoAtual, mesAtual + 1, 0).getDate();
+
+    // contador de dias do mês
+    let contadorDia = 1;
+
+    // loop que cria as células do calendário
+    for (let i = 0; i < 6; i++) {
+      tabelaCalendario += '<tr>';
+      for (let j = 0; j < 7; j++) {
+        if (i === 0 && j < diaSemanaPrimeiroDia) {
+          tabelaCalendario += '<td></td>';
+        } else if (contadorDia > ultimoDia) {
+          tabelaCalendario += '<td></td>';
+        } else {
+          // adiciona a classe "hoje" para o dia atual
+          if (contadorDia === dataAtual.getDate() && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
+            tabelaCalendario += '<td class="hoje">' + contadorDia + '</td>';
+          } else {
+            tabelaCalendario += '<td>' + contadorDia + '</td>';
+          }
+          contadorDia++;
+        }
+      }
+      tabelaCalendario += '</tr>';
+    }
+
+    tabelaCalendario += '</tbody></table>';
+
+    // adiciona a tabela na div do calendário
+    divCalendario.innerHTML = tabelaCalendario;
+  </script>
+
+</html>
+<style>
+
+</style>
